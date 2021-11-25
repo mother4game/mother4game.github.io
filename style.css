@@ -1,61 +1,33 @@
-body, html {
-height: 100%;
+.m_color_dark {
+    background-color: #191619;
+    color: white;
 }
 
-body {
-width: 100%;
-margin-left: auto;
-margin-right: auto;
-margin-top: 0;
-margin-bottom: 0;
-text-align: center;
+.m_color_light {
+    background-color: #7E7F83;
+    color: #F3F3F4;
 }
 
-.bg {
-/* The image used */
-background-image: url("./background.png");
-
-/* Full height */
-height: 100%; 
-
-/* Center and scale the image nicely */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+a:link, a:visited{
+	color: #DDA0DD;
+	background-color: transparent;
 }
 
-img {
-    padding:10vh 0 0 0;
-    margin:0;
-    max-width: 1001px;
-    width: 80%; 
-    height: auto; 
-}
-a:link {
-color: #ffffff;
-font-family: 'Lato', sans-serif; font-size: 2em;
+.noproblem{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
 }
 
-/* visited link */
-a:visited {
-color: #ffffff;
-font-family: 'Lato', sans-serif; font-size: 2em;
+.legal{
+    margin: auto; 
+    text-align: center; 
+    color: gray; 
 }
 
-/* mouse over link */
-a:hover {
-color: #0099ff;
-font-family: 'Lato', sans-serif; font-size: 2em;
-}
-
-/* selected link */
-a:active {
-color: #0099ff;
-font-family: 'Lato', sans-serif; font-size: 2em;
-}
-
-svg { 
-padding:0; margin:0;
-width: 100%; 
-height: auto; 
+.footer_img {
+    width: 40%; 
+    display: block; 
 }
